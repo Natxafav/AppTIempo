@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>App del tiempo</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <div class="card">
+            <div class="search">
+
+                <input type="text" name id placeholder="Enter city name"
+                    spellcheck="false">
+                <button><img src="./img/lupa.png" alt="Lupa" onclick ="myFunctions()"></button>
+
+            </div>
+
+            <div class="tiempo">
+                <div class="weather">
+                    <img src="./img/sol.png" class="weather-icon" alt="sol">
+                    <h1 class="temp">29°C</h1>
+                    <h2 class="city">Albacete</h2>
+                </div>
+                <div class="details">
+                    <img src="./img/humedad.png" alt="Humedad">
+                    <div class="detail_p">
+                        <p class="humidity">25%</p>
+                        <p class="humedad">Humedad</p>
+                    </div>
+                </div>
+                <div class="col-viento">
+                    <img src="./img/velovient.png" alt="Viento">
+                    <div class="col-viento_p">
+                        <p class="wind">2.01 km/h</p>
+                        <p class="velocidad">Velocidad del viento</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="days">
+                <div class="day_one">
+                    <p class="p1">Jueves</p>
+                    <img src="./img/sol.png" class="icono_1" alt="sol">
+                    <p class="p2">29°C</p>
+                </div>
+                <div class="day_two">
+                    <p class="p1">Viernes</p>
+                    <img src="./img/sol.png" class="icono_2" alt="sol">
+                    <p class="p2">28°C</p>
+                </div>
+                <div class="day_three">
+                    <p class="p1">Sábado</p>
+                    <img src="./img/sol.png" class="icono_3" alt="sol">
+                    <p class="p2">30°C</p>
+                </div>
+                <div class="day_four">
+                    <p class="p1">Domingo</p>
+                    <img src="./img/nubes.png" class="icono_4" alt="sol">
+                    <p class="p2">29°C</p>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+
+</html>
